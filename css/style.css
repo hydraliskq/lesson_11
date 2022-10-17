@@ -1,0 +1,73 @@
+body {
+	background: url(../img/road.jpg) center no-repeat;
+}
+
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.page {
+	display: inline-block;
+	width: 500px;
+	height: 715px;
+}
+
+.car {
+	position: absolute;
+	top: 350px;
+	left: -120px;
+}
+
+.car:hover {
+	top: 420px;
+	left: 240px;
+	transition: all 2s ease;
+}
+
+.airplane {
+	position: absolute;
+	width: 400px;
+	left: 60px;
+	top: 20px;
+}
+
+.airplane:hover {
+	top: 10px;
+	left: 1100px;
+	transition: all 4s ease;
+}
+
+.mountain {
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	left: 700px;
+	bottom: 250px;
+	z-index: 2;
+}
+
+.hulk {
+	width: 250px;
+	position: absolute;
+	left: 900px;
+	top: 130px;
+	z-index: 1;
+}
+
+.hulk:hover {
+	top: 50px;
+	transition: all 2s ease;
+}
+
+.helicopter {
+	position: absolute;
+	left: 1300px;
+	top: 80px;
+}
+
+.helicopter:hover {
+	left: 1050px;
+	transition: all 2s ease;
+}
